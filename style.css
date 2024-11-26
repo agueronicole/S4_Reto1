@@ -1,0 +1,96 @@
+body {
+	background-color: hsl(30, 38%, 92%);
+	padding: 32px;
+}
+
+.perfumeCard{
+	background-color: white;
+	border-radius: 15px;
+	max-width: 375px;
+	margin: 0 auto;
+}
+
+.containerImg{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+
+}
+
+.containerImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+img {
+	width: 375px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.perfume{
+	letter-spacing: 4px;
+	color: slategray;
+	
+}
+
+section{
+	padding: 30px;
+}
+
+.precios{
+	display: flex;
+	align-items: center;
+	padding: 0 auto;
+}
+
+.precioNegro{
+	margin-left: 20px;
+	color: slategray;
+}
+button {
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding: 1rem 4rem;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px;
+	margin-top: 20px;
+	cursor: pointer;
+	border: none;
+	width: 100%;
+}
+
+button i {
+	margin-right: 6px;
+}
+.precioVerde{
+	color:  hsl(158, 36%, 37%);
+}
+
+
+p{
+	color: hsl(158, 12, 48);
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: slategray;
+
+}
+
+h1{
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+
+  font-family: "Fraunces", serif;
+  font-weight: 20px;
+  font-style:bold;
+}
+
+.container{
+	color: hsl(228, 12, 48);
+}
